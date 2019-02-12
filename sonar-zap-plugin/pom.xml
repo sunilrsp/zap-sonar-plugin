@@ -75,6 +75,9 @@
     <profiles>
         <profile>
             <id>docker</id>
+          <properties>
+            <docker>true</docker>
+          </properties>            
             <activation>
                 <property>
                     <name>docker</name>
